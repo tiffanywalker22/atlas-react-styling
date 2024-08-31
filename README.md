@@ -1,4 +1,4 @@
-# React Music Player
+# Atlas Music Player
 
 ## Getting Started
 
