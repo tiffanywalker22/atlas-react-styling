@@ -3,7 +3,7 @@ import React from 'react';
 const PlayControls = () => {
     return (
         <div className="flex justify-center gap-4">
-            <button className="p-2 rounded text-black font-bold">
+            <button className="p-2 rounded text-blue font-bold">
                 1x
             </button>
             <button className="p-2 rounded">

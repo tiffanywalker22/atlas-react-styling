@@ -1,6 +1,7 @@
 import React from 'react';
 import placeholderImg from "../assets/placeholder.svg";
 
+
 const CoverArt = () => {
     return (
         <div className="flex justify-center items-center h-full pt-20">

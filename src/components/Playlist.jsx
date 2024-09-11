@@ -16,9 +16,9 @@ const Playlist = () => {
     ];
 
     return (
-        <div className='p-8 max-w-md mx-auto'>
-            <h1 className='text-2xl font-bold mb-4'>Playlist</h1>
-            <ul>
+        <div className='flex flex-col w-full h-full rounded-lg mx-auto p-4 bg-white shadow-md'>
+            <h1 className='text-lg font-bold mb-4'>Playlist</h1>
+            <ul className='flex flex-col space-y-2 overflow-y-auto h-full'>
                 {songs.map((song, index) => (
                     <li key={index} className='flex justify-between py-2 border-b'>
                         <div className='text-left'>

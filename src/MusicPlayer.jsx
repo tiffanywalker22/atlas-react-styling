@@ -4,11 +4,11 @@ import Playlist from './components/Playlist';
 
 const MusicPlayer = () => {
     return (
-        <div className="flex flex-col md:flex-row p-8">
-            <div className="bg-sage text-blue border-pink p-4 rounded-lg">
+        <div className="flex flex-col md:flex-row max-w-screen-md w-full mx-auto p-6 rounded-lg shadow-lg items-stretch md:items-start">
+            <div className="flex-1 bg-sage text-blue border-pink p-4 rounded-lg flex flex-col h-full">
                 <CurrentlyPlaying />
             </div>
-            <div className="bg-purple text-blue border-l-4 border-pink p-4 rounded-lg">
+            <div className="flex-1 bg-purple text-blue border-l-4 border-pink p-4 rounded-lg flex flex-col h-full">
                 <Playlist />
             </div>
         </div>

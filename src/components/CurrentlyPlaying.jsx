@@ -8,7 +8,7 @@ const CurrentlyPlaying = () => {
     const [volume, setVolume] = useState(50);
 
     return (
-        <div className="flex flex-col items-center p-6 rounded-lg">
+        <div className="flex flex-col items-center p-4 rounded-lg max-w-md w-full h-full mx-auto">
             <CoverArt />
             <SongTitle title="Painted in Blue" artist="Soul Canvas" />
             <PlayControls />
