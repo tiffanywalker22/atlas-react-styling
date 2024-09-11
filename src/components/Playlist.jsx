@@ -16,12 +16,12 @@ const Playlist = () => {
     ];
 
     return (
-        <div className='flex flex-col w-full h-full rounded-lg mx-auto p-4 bg-white shadow-md'>
-            <h1 className='text-lg font-bold mb-4'>Playlist</h1>
-            <ul className='flex flex-col space-y-2 overflow-y-auto h-full'>
+        <div className='flex flex-col w-full h-full bg-purple text-blue border-1-4 border-pink rounded-lg'>
+            <h1 className='text-xl font-bold mb-4'>Playlist</h1>
+            <ul className='flex flex-col space-y-2 overflow-y-auto h-full text-xs'>
                 {songs.map((song, index) => (
                     <li key={index} className='flex justify-between py-2 border-b'>
-                        <div className='text-left'>
+                        <div className='text-left text-sm'>
                             <span className='block font-bold'>{song.title}</span>
                             <span className='text-gray-500'>{song.artist}</span>
                         </div>
