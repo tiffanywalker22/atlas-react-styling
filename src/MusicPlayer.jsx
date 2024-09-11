@@ -4,7 +4,7 @@ import Playlist from './components/Playlist';
 
 const MusicPlayer = () => {
     return (
-        <div className="flex flex-col md:flex-row max-w-screen-md w-full mx-auto p-6 rounded-lg shadow-lg items-stretch md:items-start">
+        <div className="flex flex-col md:flex-row max-w-screen-md w-full mx-auto p-6 rounded-lg shadow-lg h-full">
             <div className="flex-1 bg-sage text-blue border-pink p-4 rounded-lg flex flex-col h-full">
                 <CurrentlyPlaying />
             </div>
